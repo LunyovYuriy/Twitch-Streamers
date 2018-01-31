@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #009688;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.twitch {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.twitch h1 {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.navigation {
+  margin: 0 auto;
+  width: 400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.navbtn {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  outline: none;
+  height: 30px;
+  cursor: pointer;
+  background: #A7FFEB;
+  margin-bottom: 5px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.navbtn:nth-child(3) {
+  margin-right: 0;
+}
+
+.user-div {
+  background: #A7FFEB;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 400px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.user-logo {
+  width: 50px;
+  float: left;
+}
+
+.user-name {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+.user-status {
+  font-size: 18px;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background: #004D40;
+  color: #fff;
+}
