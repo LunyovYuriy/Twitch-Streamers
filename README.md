@@ -1,2 +1,2 @@
 # Twitch-Streamers
-[Demo](https://shikigeru.github.io/Twitch-Streamers/)
+[Demo](https://lunyovyuriy.github.io/Twitch-Streamers/)
